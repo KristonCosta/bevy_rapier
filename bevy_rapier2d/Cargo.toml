@@ -11,6 +11,9 @@ keywords = [ "physics", "dynamics", "rigid", "real-time", "joints" ]
 license = "Apache-2.0"
 edition = "2018"
 
+[patch.crates-io]
+bevy = { git = 'https://github.com/bevyengine/bevy.git', branch = 'pipelined-rendering' }
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
